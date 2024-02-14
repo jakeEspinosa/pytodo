@@ -3,6 +3,6 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("-v", "--version", action="store_true")
 
-def version(version=False):
+def get_version(version=False):
     if version:
-        print("0.0.1")
+        return "0.0.1"
